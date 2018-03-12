@@ -1,0 +1,6 @@
+framework module GPRLayerChainableAnimator {
+  umbrella header "GPRLayerChainableAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}

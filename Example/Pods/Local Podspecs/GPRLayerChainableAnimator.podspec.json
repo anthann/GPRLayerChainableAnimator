@@ -1,0 +1,22 @@
+{
+  "name": "GPRLayerChainableAnimator",
+  "version": "0.1.0",
+  "summary": "用链式调用的方式书写Core Animation代码。",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anthann/GPRLayerChainableAnimator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anthann": "72115165g@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/anthann/GPRLayerChainableAnimator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GPRLayerChainableAnimator/Classes/**/*"
+}

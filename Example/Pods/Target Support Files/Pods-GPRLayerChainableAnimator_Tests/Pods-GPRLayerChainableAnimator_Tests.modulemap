@@ -1,0 +1,6 @@
+framework module Pods_GPRLayerChainableAnimator_Tests {
+  umbrella header "Pods-GPRLayerChainableAnimator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

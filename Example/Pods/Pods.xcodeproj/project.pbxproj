@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EC62B3A29A78FBBB60F1203408B017 /* GPRLayerChainableAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E04B5585F512CDAC37DAA27F7C8007 /* GPRLayerChainableAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07170342277AD11486FF228A12E98203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		20BEB9B010102D6142919C655ACF45BB /* GPRAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060EC5F6B8F39198DFA5BCBFE62733B /* GPRAnimation.m */; };
+		3E74BF2FE0C9CE19DD309761761AF617 /* CALayer+GPRAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D05B3C4CBD9CBC78D42614755416CC /* CALayer+GPRAnimation.m */; };
+		65624EFA1FE741BEB785CCD9D511DFFB /* CALayer+GPRAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F82C5D6140C8123D4CCC944FA0D8CA9 /* CALayer+GPRAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6629CC0B243CC653173BC7ABD3BDC4DF /* Pods-GPRLayerChainableAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E55EC4CAE5A5ECB99B098889EF221D4 /* Pods-GPRLayerChainableAnimator_Example-dummy.m */; };
+		6AA60F065FFB5AC0015BC76DC3F27F7E /* Pods-GPRLayerChainableAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52335D5AD581E002F1C12EFBE3D61AB /* Pods-GPRLayerChainableAnimator_Tests-dummy.m */; };
+		87FE36CC9385DB55723CE32F31D0D570 /* GPRAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 773EC6AB889110BDF9A926001362F8A9 /* GPRAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9544B4A93011CF10D30A3807450BAB67 /* Pods-GPRLayerChainableAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F353C24744923A384769E1B702F2F2 /* Pods-GPRLayerChainableAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA16E40BE00A2F2EAE643C320C0D5C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AA2F540C094CD2F30CFAA0C24FD96E7A /* GPRAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BBF429E0C2B7AAE8259EFDDCC50B4 /* GPRAnimator.m */; };
+		AE09DF5380CC6A4E2334F899FBD32AD8 /* GPRAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF8ACD9D2B1C569EB06806D058321EC /* GPRAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B81EE23D20F9749AE94332FB5FD0BF8A /* Pods-GPRLayerChainableAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE269955B6F04A4BFC2EFBB48126EC5 /* Pods-GPRLayerChainableAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B9E144F65E592E711E351BB745D68D /* GPRLayerChainableAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E8A73561ED97AECD1A5C4A1ABDDAB4 /* GPRLayerChainableAnimator-dummy.m */; };
+		DD08B303C86F78B0CF992AD4D10E1D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16715F50880C00F988C2AD5239E96AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB34292058929A53B0D5FF2BAD132D64;
+			remoteInfo = GPRLayerChainableAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F82C5D6140C8123D4CCC944FA0D8CA9 /* CALayer+GPRAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+GPRAnimation.h"; path = "GPRLayerChainableAnimator/Classes/CALayer+GPRAnimation.h"; sourceTree = "<group>"; };
+		16E8A73561ED97AECD1A5C4A1ABDDAB4 /* GPRLayerChainableAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPRLayerChainableAnimator-dummy.m"; sourceTree = "<group>"; };
+		331A75D08F4D7FAC11257BDA1F5557D2 /* Pods-GPRLayerChainableAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPRLayerChainableAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		33E04B5585F512CDAC37DAA27F7C8007 /* GPRLayerChainableAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPRLayerChainableAnimator-umbrella.h"; sourceTree = "<group>"; };
+		3460E36D5DFF40B9E1C69D5BC2CD920C /* Pods-GPRLayerChainableAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GPRLayerChainableAnimator_Example.modulemap"; sourceTree = "<group>"; };
+		4E98912DF4C43FCC9AAA212DBC76E6AD /* GPRLayerChainableAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPRLayerChainableAnimator-prefix.pch"; sourceTree = "<group>"; };
+		5060EC5F6B8F39198DFA5BCBFE62733B /* GPRAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPRAnimation.m; path = GPRLayerChainableAnimator/Classes/GPRAnimation.m; sourceTree = "<group>"; };
+		50F353C24744923A384769E1B702F2F2 /* Pods-GPRLayerChainableAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPRLayerChainableAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
+		52B72AB1B6145FFA7B836D232B4EBC21 /* Pods-GPRLayerChainableAnimator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPRLayerChainableAnimator_Example-resources.sh"; sourceTree = "<group>"; };
+		5BBD89FA3F4B699578F9183FAB798B01 /* Pods-GPRLayerChainableAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPRLayerChainableAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DB8BFAACD284082344308619708C55E /* Pods-GPRLayerChainableAnimator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPRLayerChainableAnimator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5E55EC4CAE5A5ECB99B098889EF221D4 /* Pods-GPRLayerChainableAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPRLayerChainableAnimator_Example-dummy.m"; sourceTree = "<group>"; };
+		617C709117CF32ED15C8449E5B7739DE /* Pods-GPRLayerChainableAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPRLayerChainableAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		735208715AF48F20708C54B043B07AE0 /* Pods_GPRLayerChainableAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPRLayerChainableAnimator_Example.framework; path = "Pods-GPRLayerChainableAnimator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7469CDAA9BABA828F6A97520F2B9365A /* Pods-GPRLayerChainableAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPRLayerChainableAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		773EC6AB889110BDF9A926001362F8A9 /* GPRAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPRAnimation.h; path = GPRLayerChainableAnimator/Classes/GPRAnimation.h; sourceTree = "<group>"; };
+		7B3BBF429E0C2B7AAE8259EFDDCC50B4 /* GPRAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPRAnimator.m; path = GPRLayerChainableAnimator/Classes/GPRAnimator.m; sourceTree = "<group>"; };
+		865D00E061A095D123EE7C8F1A5057DD /* Pods-GPRLayerChainableAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPRLayerChainableAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8730182C867A51DBE03C09EF176B2238 /* GPRLayerChainableAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPRLayerChainableAnimator.xcconfig; sourceTree = "<group>"; };
+		89DB5BF77A79C230C86A5322221A8BAF /* Pods-GPRLayerChainableAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPRLayerChainableAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9582C88199161A9AA5054797485DBD5E /* Pods_GPRLayerChainableAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPRLayerChainableAnimator_Tests.framework; path = "Pods-GPRLayerChainableAnimator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BD7AD002F0051F52AF1CF857AA69A8 /* GPRLayerChainableAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GPRLayerChainableAnimator.modulemap; sourceTree = "<group>"; };
+		98D05B3C4CBD9CBC78D42614755416CC /* CALayer+GPRAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+GPRAnimation.m"; path = "GPRLayerChainableAnimator/Classes/CALayer+GPRAnimation.m"; sourceTree = "<group>"; };
+		A1C53506576D9913DD8C3B17C01507EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DF2651F79E8705D6C1DE3BA476E05A /* Pods-GPRLayerChainableAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GPRLayerChainableAnimator_Tests.modulemap"; sourceTree = "<group>"; };
+		AB1B10883E7B219BF7DC38E6C83E345E /* Pods-GPRLayerChainableAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPRLayerChainableAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF8ACD9D2B1C569EB06806D058321EC /* GPRAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPRAnimator.h; path = GPRLayerChainableAnimator/Classes/GPRAnimator.h; sourceTree = "<group>"; };
+		B09052B840CD5CC28100F766705C0572 /* Pods-GPRLayerChainableAnimator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPRLayerChainableAnimator_Tests-resources.sh"; sourceTree = "<group>"; };
+		B9C5C41C69C11CEE7B0DC4F630D5FF46 /* GPRLayerChainableAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GPRLayerChainableAnimator.framework; path = GPRLayerChainableAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE269955B6F04A4BFC2EFBB48126EC5 /* Pods-GPRLayerChainableAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPRLayerChainableAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C3E85F1A74CCDCDA9DF225619D5AD448 /* Pods-GPRLayerChainableAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPRLayerChainableAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E52335D5AD581E002F1C12EFBE3D61AB /* Pods-GPRLayerChainableAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPRLayerChainableAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
+		F0AEB6958A0C36F39732D1A078AEF84B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AB570DAC451A39BE19D34BCFCDB9D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD10D3A782191E08460CA67690B6053B /* Pods-GPRLayerChainableAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPRLayerChainableAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465B40CFF228FACF949CE8627EEEEF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA16E40BE00A2F2EAE643C320C0D5C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0BDF333D510476DB69C25F657F05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07170342277AD11486FF228A12E98203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84261D262A2E19CAE6422C1F13F82BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08B303C86F78B0CF992AD4D10E1D33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C2F34C0382A869455339AA4B4BF3EAB /* GPRLayerChainableAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				0F82C5D6140C8123D4CCC944FA0D8CA9 /* CALayer+GPRAnimation.h */,
+				98D05B3C4CBD9CBC78D42614755416CC /* CALayer+GPRAnimation.m */,
+				773EC6AB889110BDF9A926001362F8A9 /* GPRAnimation.h */,
+				5060EC5F6B8F39198DFA5BCBFE62733B /* GPRAnimation.m */,
+				ADF8ACD9D2B1C569EB06806D058321EC /* GPRAnimator.h */,
+				7B3BBF429E0C2B7AAE8259EFDDCC50B4 /* GPRAnimator.m */,
+				FC621A8193D0CDDDB0D67629EB168515 /* Support Files */,
+			);
+			name = GPRLayerChainableAnimator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C87D76BFB2397C14A95DB8D26C36F23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D7ED5428B678B3C26FBD75333540D1 /* Pods-GPRLayerChainableAnimator_Example */,
+				AC0FE13E55E7D5FDA6A95FD028E87BF9 /* Pods-GPRLayerChainableAnimator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ED7BA099F0DE831C750FFB0985BB7D5F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C2330F1815FC7AA92F4ED8684685CC1E /* Products */,
+				7C87D76BFB2397C14A95DB8D26C36F23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95D7ED5428B678B3C26FBD75333540D1 /* Pods-GPRLayerChainableAnimator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEB6958A0C36F39732D1A078AEF84B /* Info.plist */,
+				3460E36D5DFF40B9E1C69D5BC2CD920C /* Pods-GPRLayerChainableAnimator_Example.modulemap */,
+				C3E85F1A74CCDCDA9DF225619D5AD448 /* Pods-GPRLayerChainableAnimator_Example-acknowledgements.markdown */,
+				7469CDAA9BABA828F6A97520F2B9365A /* Pods-GPRLayerChainableAnimator_Example-acknowledgements.plist */,
+				5E55EC4CAE5A5ECB99B098889EF221D4 /* Pods-GPRLayerChainableAnimator_Example-dummy.m */,
+				FD10D3A782191E08460CA67690B6053B /* Pods-GPRLayerChainableAnimator_Example-frameworks.sh */,
+				52B72AB1B6145FFA7B836D232B4EBC21 /* Pods-GPRLayerChainableAnimator_Example-resources.sh */,
+				50F353C24744923A384769E1B702F2F2 /* Pods-GPRLayerChainableAnimator_Example-umbrella.h */,
+				331A75D08F4D7FAC11257BDA1F5557D2 /* Pods-GPRLayerChainableAnimator_Example.debug.xcconfig */,
+				865D00E061A095D123EE7C8F1A5057DD /* Pods-GPRLayerChainableAnimator_Example.release.xcconfig */,
+			);
+			name = "Pods-GPRLayerChainableAnimator_Example";
+			path = "Target Support Files/Pods-GPRLayerChainableAnimator_Example";
+			sourceTree = "<group>";
+		};
+		AC0FE13E55E7D5FDA6A95FD028E87BF9 /* Pods-GPRLayerChainableAnimator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5AB570DAC451A39BE19D34BCFCDB9D6 /* Info.plist */,
+				A1DF2651F79E8705D6C1DE3BA476E05A /* Pods-GPRLayerChainableAnimator_Tests.modulemap */,
+				617C709117CF32ED15C8449E5B7739DE /* Pods-GPRLayerChainableAnimator_Tests-acknowledgements.markdown */,
+				5BBD89FA3F4B699578F9183FAB798B01 /* Pods-GPRLayerChainableAnimator_Tests-acknowledgements.plist */,
+				E52335D5AD581E002F1C12EFBE3D61AB /* Pods-GPRLayerChainableAnimator_Tests-dummy.m */,
+				5DB8BFAACD284082344308619708C55E /* Pods-GPRLayerChainableAnimator_Tests-frameworks.sh */,
+				B09052B840CD5CC28100F766705C0572 /* Pods-GPRLayerChainableAnimator_Tests-resources.sh */,
+				BAE269955B6F04A4BFC2EFBB48126EC5 /* Pods-GPRLayerChainableAnimator_Tests-umbrella.h */,
+				AB1B10883E7B219BF7DC38E6C83E345E /* Pods-GPRLayerChainableAnimator_Tests.debug.xcconfig */,
+				89DB5BF77A79C230C86A5322221A8BAF /* Pods-GPRLayerChainableAnimator_Tests.release.xcconfig */,
+			);
+			name = "Pods-GPRLayerChainableAnimator_Tests";
+			path = "Target Support Files/Pods-GPRLayerChainableAnimator_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2330F1815FC7AA92F4ED8684685CC1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C5C41C69C11CEE7B0DC4F630D5FF46 /* GPRLayerChainableAnimator.framework */,
+				735208715AF48F20708C54B043B07AE0 /* Pods_GPRLayerChainableAnimator_Example.framework */,
+				9582C88199161A9AA5054797485DBD5E /* Pods_GPRLayerChainableAnimator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED7BA099F0DE831C750FFB0985BB7D5F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C2F34C0382A869455339AA4B4BF3EAB /* GPRLayerChainableAnimator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FC621A8193D0CDDDB0D67629EB168515 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96BD7AD002F0051F52AF1CF857AA69A8 /* GPRLayerChainableAnimator.modulemap */,
+				8730182C867A51DBE03C09EF176B2238 /* GPRLayerChainableAnimator.xcconfig */,
+				16E8A73561ED97AECD1A5C4A1ABDDAB4 /* GPRLayerChainableAnimator-dummy.m */,
+				4E98912DF4C43FCC9AAA212DBC76E6AD /* GPRLayerChainableAnimator-prefix.pch */,
+				33E04B5585F512CDAC37DAA27F7C8007 /* GPRLayerChainableAnimator-umbrella.h */,
+				A1C53506576D9913DD8C3B17C01507EA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GPRLayerChainableAnimator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		245B7847028266A59A396E061C2DB5BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65624EFA1FE741BEB785CCD9D511DFFB /* CALayer+GPRAnimation.h in Headers */,
+				87FE36CC9385DB55723CE32F31D0D570 /* GPRAnimation.h in Headers */,
+				AE09DF5380CC6A4E2334F899FBD32AD8 /* GPRAnimator.h in Headers */,
+				06EC62B3A29A78FBBB60F1203408B017 /* GPRLayerChainableAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD0F34151E57E842846F0BD2805466E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9544B4A93011CF10D30A3807450BAB67 /* Pods-GPRLayerChainableAnimator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93318CFF350A7F6AD7FABD5D2BB4FF32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81EE23D20F9749AE94332FB5FD0BF8A /* Pods-GPRLayerChainableAnimator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D055EE542FE88E233672495A4A1C7EE /* Pods-GPRLayerChainableAnimator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC7E14D4FD544D0F5334584D8E172C3 /* Build configuration list for PBXNativeTarget "Pods-GPRLayerChainableAnimator_Tests" */;
+			buildPhases = (
+				4BF8848709EA6E649891D8D188710756 /* Sources */,
+				465B40CFF228FACF949CE8627EEEEF1A /* Frameworks */,
+				93318CFF350A7F6AD7FABD5D2BB4FF32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GPRLayerChainableAnimator_Tests";
+			productName = "Pods-GPRLayerChainableAnimator_Tests";
+			productReference = 9582C88199161A9AA5054797485DBD5E /* Pods_GPRLayerChainableAnimator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD4D997AC5C5E16E1758060B1DE3B682 /* Pods-GPRLayerChainableAnimator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA71F6093F4236E3120FD7A25042785 /* Build configuration list for PBXNativeTarget "Pods-GPRLayerChainableAnimator_Example" */;
+			buildPhases = (
+				DB05E55A614E0BD66662715A39F2CE97 /* Sources */,
+				8FE0BDF333D510476DB69C25F657F05A /* Frameworks */,
+				3BD0F34151E57E842846F0BD2805466E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4F0EA1398587B50DB38F9A384C5E75A /* PBXTargetDependency */,
+			);
+			name = "Pods-GPRLayerChainableAnimator_Example";
+			productName = "Pods-GPRLayerChainableAnimator_Example";
+			productReference = 735208715AF48F20708C54B043B07AE0 /* Pods_GPRLayerChainableAnimator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB34292058929A53B0D5FF2BAD132D64 /* GPRLayerChainableAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2BF1DE14591B459664AB4101C0280B /* Build configuration list for PBXNativeTarget "GPRLayerChainableAnimator" */;
+			buildPhases = (
+				61F1E344166FD2F7D1F2E531289936F4 /* Sources */,
+				B84261D262A2E19CAE6422C1F13F82BD /* Frameworks */,
+				245B7847028266A59A396E061C2DB5BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPRLayerChainableAnimator;
+			productName = GPRLayerChainableAnimator;
+			productReference = B9C5C41C69C11CEE7B0DC4F630D5FF46 /* GPRLayerChainableAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2330F1815FC7AA92F4ED8684685CC1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB34292058929A53B0D5FF2BAD132D64 /* GPRLayerChainableAnimator */,
+				BD4D997AC5C5E16E1758060B1DE3B682 /* Pods-GPRLayerChainableAnimator_Example */,
+				4D055EE542FE88E233672495A4A1C7EE /* Pods-GPRLayerChainableAnimator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF8848709EA6E649891D8D188710756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA60F065FFB5AC0015BC76DC3F27F7E /* Pods-GPRLayerChainableAnimator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F1E344166FD2F7D1F2E531289936F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74BF2FE0C9CE19DD309761761AF617 /* CALayer+GPRAnimation.m in Sources */,
+				20BEB9B010102D6142919C655ACF45BB /* GPRAnimation.m in Sources */,
+				AA2F540C094CD2F30CFAA0C24FD96E7A /* GPRAnimator.m in Sources */,
+				D2B9E144F65E592E711E351BB745D68D /* GPRLayerChainableAnimator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB05E55A614E0BD66662715A39F2CE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6629CC0B243CC653173BC7ABD3BDC4DF /* Pods-GPRLayerChainableAnimator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4F0EA1398587B50DB38F9A384C5E75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPRLayerChainableAnimator;
+			target = EB34292058929A53B0D5FF2BAD132D64 /* GPRLayerChainableAnimator */;
+			targetProxy = 16715F50880C00F988C2AD5239E96AD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		74FECCD662A70BA54F7A325912C21671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DB5BF77A79C230C86A5322221A8BAF /* Pods-GPRLayerChainableAnimator_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Tests/Pods-GPRLayerChainableAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GPRLayerChainableAnimator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B1C94C03200C7672BA5129AFCA12F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865D00E061A095D123EE7C8F1A5057DD /* Pods-GPRLayerChainableAnimator_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Example/Pods-GPRLayerChainableAnimator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GPRLayerChainableAnimator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9CF4F290D3E85C7E484B8739A252D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1B10883E7B219BF7DC38E6C83E345E /* Pods-GPRLayerChainableAnimator_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Tests/Pods-GPRLayerChainableAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GPRLayerChainableAnimator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7017D6DCAA8FE0A2753ADF4B22C6144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8730182C867A51DBE03C09EF176B2238 /* GPRLayerChainableAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GPRLayerChainableAnimator/GPRLayerChainableAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPRLayerChainableAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPRLayerChainableAnimator/GPRLayerChainableAnimator.modulemap";
+				PRODUCT_NAME = GPRLayerChainableAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E20CFA54C27E39370E7D3652199DB175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8730182C867A51DBE03C09EF176B2238 /* GPRLayerChainableAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GPRLayerChainableAnimator/GPRLayerChainableAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GPRLayerChainableAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GPRLayerChainableAnimator/GPRLayerChainableAnimator.modulemap";
+				PRODUCT_NAME = GPRLayerChainableAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E64EE86F24E788E3F70D27ACB7AF21CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331A75D08F4D7FAC11257BDA1F5557D2 /* Pods-GPRLayerChainableAnimator_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GPRLayerChainableAnimator_Example/Pods-GPRLayerChainableAnimator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GPRLayerChainableAnimator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA71F6093F4236E3120FD7A25042785 /* Build configuration list for PBXNativeTarget "Pods-GPRLayerChainableAnimator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64EE86F24E788E3F70D27ACB7AF21CD /* Debug */,
+				9B1C94C03200C7672BA5129AFCA12F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC7E14D4FD544D0F5334584D8E172C3 /* Build configuration list for PBXNativeTarget "Pods-GPRLayerChainableAnimator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CF4F290D3E85C7E484B8739A252D2F /* Debug */,
+				74FECCD662A70BA54F7A325912C21671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2BF1DE14591B459664AB4101C0280B /* Build configuration list for PBXNativeTarget "GPRLayerChainableAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7017D6DCAA8FE0A2753ADF4B22C6144 /* Debug */,
+				E20CFA54C27E39370E7D3652199DB175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
