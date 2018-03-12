@@ -14,8 +14,10 @@
 
 - (instancetype)initWithLayer:(CALayer *)layer;
 - (GPRAnimation *)basicAnimation;
-//- (GPRAnimation *)keyFrameAnimation;
-//- (GPRAnimation *)propertyAnimation;
+- (GPRAnimation *)keyFrameAnimation;
+- (GPRAnimation *)propertyAnimation;
+- (GPRAnimation *)springAnimation;
+- (GPRAnimation *)transition;
 
 - (void)commitAnimation;
 

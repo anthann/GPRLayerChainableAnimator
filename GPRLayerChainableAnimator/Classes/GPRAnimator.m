@@ -33,19 +33,56 @@
     return animation;
 }
 
-- (void)commitAnimation {
-    if (self.animations.count == 0) {
-        self.index = -1;
-        return;
-    }
-    CAAnimation *realAnimation = self.animations.firstObject.animation;
-    realAnimation.delegate = self;
-    self.index = 0;
-    [self.layer addAnimation:realAnimation forKey:nil];
+- (GPRAnimation *)keyFrameAnimation {
+    GPRAnimation *animation = [[GPRAnimation alloc] initWithSubType:GPRAnimationSubTypeKeyFrame];
+    [self.animations addObject:animation];
+    return animation;
 }
 
-#pragma mark - CAAnimationDelegate
+- (GPRAnimation *)propertyAnimation {
+    GPRAnimation *animation = [[GPRAnimation alloc] initWithSubType:GPRAnimationSubTypeProperty];
+    [self.animations addObject:animation];
+    return animation;
+}
 
+- (GPRAnimation *)springAnimation {
+    GPRAnimation *animation = [[GPRAnimation alloc] initWithSubType:GPRAnimationSubTypeSpring];
+    [self.animations addObject:animation];
+    return animation;
+}
+
+- (GPRAnimation *)transition {
+    GPRAnimation *animation = [[GPRAnimation alloc] initWithSubType:GPRAnimationSubTypeTransition];
+    [self.animations addObject:animation];
+    return animation;
+}
+
+- (void)commitAnimation {
+    [self performAnimationAtIndex:0];
+}
+
+- (void)performAnimationAtIndex:(NSInteger)index {
+    if (index < 0 || index >= self.animations.count) {
+        return;
+    }
+    GPRAnimation *animation = self.animations[index];
+    CAAnimation *realAnimation = animation.animation;
+    realAnimation.delegate = self;
+    [self.layer addAnimation:realAnimation forKey:nil];
+    if ([realAnimation isKindOfClass:[CATransition class]]) {
+        [CATransaction begin];
+        [CATransaction setDisableActions:YES];
+        [self.layer addAnimation:realAnimation forKey:nil];
+        GPRTransitionBlock block = [animation.transitionBlock copy];
+        if (block) {
+            block();
+        }
+        self.animations[index].transitionBlock = nil;
+    }
+    self.index = index + 1;
+};
+
+#pragma mark - CAAnimationDelegate
 
 - (void)animationDidStart:(CAAnimation *)anim {
     
@@ -53,11 +90,8 @@
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
     if (flag) {
-        if (self.index < self.animations.count - 1) {
-            CAAnimation *realAnimation = self.animations[self.index + 1].animation;
-            realAnimation.delegate = self;
-            self.index += 1;
-            [self.layer addAnimation:realAnimation forKey:nil];
+        if (self.index >= 0 && self.index < self.animations.count) {
+            [self performAnimationAtIndex:self.index];
         } else {
             [self.animations removeAllObjects];
         }
