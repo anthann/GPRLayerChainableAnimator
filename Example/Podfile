@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GPRLayerChainableAnimator_Example' do
+  pod 'GPRLayerChainableAnimator', :path => '../'
+
+  target 'GPRLayerChainableAnimator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
